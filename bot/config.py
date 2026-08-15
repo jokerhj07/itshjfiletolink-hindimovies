@@ -7,7 +7,7 @@ class Telegram:
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "6026244374").split()
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "itshjfiletolinkbot")
     BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7929561832:AAGaB8GTF2f9AfI0yIdK9PpN23F4F_mrJJ8")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002358425700))
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1004207509675))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
